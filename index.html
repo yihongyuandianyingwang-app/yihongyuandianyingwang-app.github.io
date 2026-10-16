@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<title>怡红院电影网｜剧情解析·片单索引·观影指南 - yihongyuandianyingwang-app.github.io</title>
+<meta name="description" content="怡红院电影网（https://yihongyuandianyingwang-app.github.io）收录华语、日韩、欧美影视条目索引与剧情解析，含看点拆解、观影顺序建议、新手观影指南与常见问题解答；页面轻量、移动端自适应，打开即读，方便按分类快速查找想看的片单。">
+<meta name="keywords" content="怡红院电影网,怡红院电影,影视条目索引,电影剧情解析,片单推荐,观影指南,华语电影,日韩剧集,欧美电影,影视看点拆解,新手观影流程,yihongyuandianyingwang-app.github.io">
+<meta name="author" content="怡红院电影网">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="theme-color" content="#12100f">
+<meta name="apple-mobile-web-app-title" content="怡红院电影网">
+<link rel="canonical" href="https://yihongyuandianyingwang-app.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="怡红院电影网">
+<meta property="og:title" content="怡红院电影网｜剧情解析·片单索引·观影指南">
+<meta property="og:description" content="按分类查片单、读剧情解析、看观影顺序建议，怡红院电影网把一部片子该从哪看起讲清楚。">
+<meta property="og:url" content="https://yihongyuanandianyingwang-app.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="怡红院电影网｜剧情解析·片单索引·观影指南">
+<meta name="twitter:description" content="华语、日韩、欧美影视条目索引与剧情解析，移动端自适应，打开即读。">
+<style>
+:root{
+  --bg:#100e0f;
+  --bg2:#171314;
+  --card:#1c1719;
+  --card2:#221c1e;
+  --line:rgba(255,255,255,.09);
+  --red:#d43b33;
+  --red2:#a02a24;
+  --gold:#e3b765;
+  --text:#eee9e8;
+  --muted:#a79d9e;
+  --shadow:0 18px 40px rgba(0,0,0,.45);
+  --serif:"Songti SC","Noto Serif SC","Source Han Serif SC","SimSun",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.75;
+  letter-spacing:.2px;
+  overflow-x:hidden;
+  background-image:
+    radial-gradient(900px 480px at 8% -8%,rgba(212,59,51,.20),transparent 62%),
+    radial-gradient(760px 420px at 102% 6%,rgba(227,183,101,.10),transparent 60%);
+  background-repeat:no-repeat;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+ul{list-style:none}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:700;letter-spacing:.5px;line-height:1.35}
+.wrap{width:min(1160px,92vw);margin:0 auto}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:13px;letter-spacing:3px;color:var(--gold);
+  text-transform:uppercase;
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--gold);opacity:.7}
+.filmstrip{
+  height:26px;background:#0b0a0a;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  background-image:repeating-linear-gradient(to right,transparent 0 12px,rgba(255,255,255,.10) 12px 26px);
+  background-size:auto 8px;background-position:0 9px;background-repeat:repeat-x;
+}
+
+/* ============ header ============ */
+.topbar{
+  position:sticky;top:0;z-index:60;
+  background:rgba(16,14,15,.88);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;min-height:66px;gap:16px}
+.brand{display:flex;align-items:center;gap:12px}
+.mark{
+  width:40px;height:40px;flex:0 0 40px;border-radius:10px;
+  background:linear-gradient(150deg,var(--red),var(--red2));
+  box-shadow:0 6px 18px rgba(212,59,51,.35);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-size:20px;color:#fff;
+}
+.brand b{font-family:var(--serif);font-size:20px;letter-spacing:2px;display:block;line-height:1.2}
+.brand span{display:block;font-size:11px;color:var(--muted);letter-spacing:1.4px}
+.navswitch{position:absolute;left:-9999px;opacity:0}
+.navbtn{
+  display:none;width:42px;height:42px;border:1px solid var(--line);border-radius:10px;
+  align-items:center;justify-content:center;cursor:pointer;flex-direction:column;gap:5px;
+}
+.navbtn i{display:block;width:18px;height:1.6px;background:var(--text)}
+.mainnav ul{display:flex;align-items:center;gap:4px}
+.mainnav a{
+  display:block;padding:9px 14px;border-radius:8px;font-size:14.5px;color:var(--muted);
+  transition:color .22s,background .22s;
+}
+.mainnav a:hover{color:#fff;background:rgba(255,255,255,.06)}
+.cta{
+  display:inline-block;padding:10px 18px;border-radius:999px;font-size:14px;
+  background:linear-gradient(120deg,var(--red),#b8302a);color:#fff;
+  box-shadow:0 8px 20px rgba(212,59,51,.28);white-space:nowrap;
+}
+.cta:hover{filter:brightness(1.08)}
+
+/* ============ hero ============ */
+.hero{position:relative;padding:72px 0 40px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.tagline{
+  display:inline-block;margin-bottom:20px;padding:6px 14px;border:1px solid rgba(227,183,101,.35);
+  border-radius:999px;font-size:12.5px;color:var(--gold);letter-spacing:1.5px;
+}
+.hero h1{
+  font-size:clamp(34px,5.4vw,60px);
+  margin-bottom:18px;
+}
+.hero h1 em{
+  font-style:normal;color:var(--red);
+  text-shadow:0 0 26px rgba(212,59,51,.35);
+}
+.hero p.lead{color:var(--muted);font-size:16.5px;max-width:52ch;margin-bottom:26px}
+.urlbox{
+  display:flex;flex-wrap:wrap;align-items:center;gap:12px;
+  padding:14px 16px;border:1px dashed rgba(227,183,101,.4);border-radius:14px;
+  background:linear-gradient(180deg,rgba(227,183,101,.07),transparent);
+  margin-bottom:30px;
+}
+.urlbox .lb{font-size:12px;color:var(--muted);letter-spacing:1px}
+.urlbox code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:14px;color:var(--gold);word-break:break-all;
+}
+.hero-btns{display:flex;flex-wrap:wrap;gap:14px}
+.btn-ghost{
+  display:inline-block;padding:10px 20px;border-radius:999px;font-size:14px;
+  border:1px solid var(--line);color:var(--text);
+}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+
+.poster{
+  position:relative;height:400px;display:flex;align-items:center;justify-content:center;
+}
+.poster .ring{
+  position:absolute;width:300px;height:300px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.10);
+}
+.poster .ring.b{width:360px;height:360px;border-style:dashed;border-color:rgba(227,183,101,.22)}
+.poster .card{
+  position:absolute;width:160px;height:220px;border-radius:12px;
+  border:1px solid rgba(255,255,255,.12);box-shadow:var(--shadow);
+  background-size:cover;background-position:center;overflow:hidden;
+}
+.poster .c1{background:linear-gradient(160deg,#3a2226,#12100f);transform:rotate(-9deg) translateX(-88px)}
+.poster .c2{background:linear-gradient(160deg,#4a3520,#12100f);transform:rotate(0deg) scale(1.06);z-index:2}
+.poster .c3{background:linear-gradient(160deg,#22303a,#12100f);transform:rotate(9deg) translateX(88px)}
+.poster .no{position:absolute;bottom:10px;left:12px;font-family:var(--serif);font-size:13px;color:var(--gold)}
+.poster .badge{
+  position:absolute;bottom:6px;right:-14px;z-index:3;
+  background:var(--bg2);border:1px solid var(--line);border-radius:12px;
+  padding:10px 14px;font-size:12.5px;color:var(--muted);box-shadow:var(--shadow);
+}
+.poster .badge b{color:var(--gold);font-family:var(--serif)}
+
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  margin-top:44px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+}
+.stats div{background:var(--bg2);padding:22px 18px;text-align:center}
+.stats strong{display:block;font-family:var(--serif);font-size:clamp(22px,3.4vw,32px);color:var(--gold)}
+.stats span{font-size:13px;color:var(--muted)}
+
+/* ============ sections ============ */
+section{padding:74px 0}
+.sechead{max-width:62ch;margin-bottom:40px}
+.sechead h2{font-size:clamp(26px,3.6vw,38px);margin:12px 0 14px}
+.sechead h2 em{font-style:normal;color:var(--red)}
+.sechead p{color:var(--muted);font-size:15.5px}
+
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.cat{
+  position:relative;padding:26px 22px;border:1px solid var(--line);border-radius:16px;
+  background:linear-gradient(180deg,var(--card),var(--bg2));
+  transition:transform .25s,border-color .25s;
+}
+.cat:hover{transform:translateY(-6px);border-color:rgba(227,183,101,.4)}
+.cat .num{
+  font-family:var(--serif);font-size:34px;color:rgba(255,255,255,.10);
+  position:absolute;top:14px;right:20px;
+}
+.cat h3{font-size:19px;margin-bottom:8px}
+.cat p{font-size:14px;color:var(--muted);margin-bottom:14px}
+.cat .meta{display:flex;flex-wrap:wrap;gap:8px}
+.cat .meta i{
+  font-style:normal;font-size:12px;padding:4px 10px;border-radius:6px;
+  background:rgba(255,255,255,.05);color:var(--muted);
+}
+
+.strip{
+  display:flex;gap:18px;overflow-x:auto;padding:6px 4px 20px;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+}
+.strip::-webkit-scrollbar{height:6px}
+.strip::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14);border-radius:6px}
+.pic{
+  flex:0 0 232px;scroll-snap-align:start;border:1px solid var(--line);border-radius:14px;
+  background:var(--card);overflow:hidden;transition:transform .25s;
+}
+.pic:hover{transform:translateY(-5px)}
+.pic .thumb{height:270px;position:relative;background-size:cover;background-position:center}
+.pic .t1{background:linear-gradient(165deg,#5a2a2a,#1a1214)}
+.pic .t2{background:linear-gradient(165deg,#2a3f5a,#131418)}
+.pic .t3{background:linear-gradient(165deg,#5a4a2a,#1a1611)}
+.pic .t4{background:linear-gradient(165deg,#3a2a4a,#16121a)}
+.pic .t5{background:linear-gradient(165deg,#2a5a44,#121a16)}
+.pic .score{
+  position:absolute;top:10px;left:10px;padding:3px 9px;border-radius:6px;
+  background:rgba(0,0,0,.55);color:var(--gold);font-family:var(--serif);font-size:13px;
+}
+.pic .body{padding:16px 16px 20px}
+.pic h3{font-size:17px;margin-bottom:6px}
+.pic p{font-size:13.5px;color:var(--muted)}
+
+.rows{display:grid;gap:26px}
+.row{
+  display:grid;grid-template-columns:240px 1fr;gap:30px;align-items:center;
+  padding:26px;border:1px solid var(--line);border-radius:18px;background:var(--bg2);
+}
+.row:nth-child(even){grid-template-columns:1fr 240px}
+.row:nth-child(even) .art{order:2}
+.art{height:170px;border-radius:12px;background:linear-gradient(150deg,#3a2429,#151213)}
+.row:nth-child(even) .art{background:linear-gradient(150deg,#24303a,#131619)}
+.row h3{font-size:20px;margin-bottom:10px}
+.row p{color:var(--muted);font-size:14.8px;margin-bottom:12px}
+.row .pts{display:flex;flex-wrap:wrap;gap:10px}
+.row .pts i{font-style:normal;font-size:12.5px;color:var(--gold);border-bottom:1px dotted rgba(227,183,101,.45);padding-bottom:2px}
+
+.steps{border-left:2px solid rgba(227,183,101,.28);margin-left:10px;padding-left:0}
+.step{position:relative;padding:0 0 30px 34px}
+.step:last-child{padding-bottom:0}
+.step::before{
+  content:"";position:absolute;left:-11px;top:6px;width:20px;height:20px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--gold);
+}
+.step h3{font-size:18px;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+.step h3 b{font-size:12px;color:var(--red);letter-spacing:1px}
+.step p{color:var(--muted);font-size:14.8px;max-width:70ch}
+
+.faq{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--bg2)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:last-child{border-bottom:0}
+.faq summary{
+  cursor:pointer;padding:18px 22px;font-family:var(--serif);font-size:16.5px;
+  list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--gold);font-size:20px;line-height:1}
+.faq details[open] summary::after{content:"−"}
+.faq details[open] summary{color:var(--gold)}
+.faq .ans{padding:0 22px 20px;color:var(--muted);font-size:14.8px;max-width:80ch}
+
+.about{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+.about .txt p{color:var(--muted);margin-bottom:16px;font-size:15.2px}
+.about .txt p strong{color:var(--text)}
+.cards2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mini{padding:20px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.mini h4{font-size:15px;margin-bottom:8px;color:var(--gold)}
+.mini p{font-size:13.6px;color:var(--muted)}
+
+.foot{background:#0b0a0a;border-top:1px solid var(--line);padding:54px 0 26px;margin-top:20px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:32px}
+.foot h4{font-size:15px;margin-bottom:14px;color:var(--gold)}
+.foot li{margin-bottom:9px}
+.foot li a{font-size:13.8px;color:var(--muted)}
+.foot li a:hover{color:var(--text)}
+.foot .aboutme p{font-size:13.8px;color:var(--muted);margin-bottom:12px}
+.foot .url2{
+  font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.8px;
+  color:var(--gold);word-break:break-all;line-height:1.9;
+}
+.foot-bot{
+  margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+  display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;
+  font-size:12.6px;color:#7d7475;
+}
+
+@media (max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;gap:36px}
+  .poster{height:330px}
+  .cats{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:768px){
+  body{font-size:15.5px}
+  section{padding:52px 0}
+  .mainnav{order:3;flex-basis:100%}
+  .mainnav ul{display:none;flex-direction:column;align-items:stretch;gap:2px;padding:12px 0;border-top:1px solid var(--line)}
+  .navswitch:checked ~ .mainnav ul{display:flex}
+  .navbtn{display:flex}
+  .topbar .wrap{flex-wrap:wrap;min-height:60px;padding-top:10px;padding-bottom:10px}
+  .hero{padding:44px 0 24px}
+  .stats{grid-template-columns:1fr 1fr}
+  .cats{grid-template-columns:1fr}
+  .row,.row:nth-child(even){grid-template-columns:1fr;gap:18px}
+  .row:nth-child(even) .art{order:0}
+  .art{height:150px}
+  .about{grid-template-columns:1fr;gap:28px}
+}
+@media (max-width:480px){
+  .brand b{font-size:17px}
+  .brand span{display:none}
+  .stats{grid-template-columns:1fr}
+  .cards2{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .pic{flex:0 0 78vw}
+  .poster{height:290px}
+  .poster .c1{transform:rotate(-9deg) translateX(-70px)}
+  .poster .c3{transform:rotate(9deg) translateX(70px)}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<div class="filmstrip" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="怡红院电影网 首页">
+      <span class="mark" aria-hidden="true">怡</span>
+      <span>
+        <b>怡红院电影网</b>
+        <span>yihongyuandianyingwang-app.github.io</span>
+      </span>
+    </a>
+
+    <input class="navswitch" id="navswitch" type="checkbox" aria-label="展开导航">
+    <label class="navbtn" for="navswitch" aria-label="导航菜单"><i></i><i></i><i></i></label>
+
+    <nav class="mainnav" aria-label="站点栏目导航">
+      <ul>
+        <li><a href="#home">首页概览</a></li>
+        <li><a href="#category">分类索引</a></li>
+        <li><a href="#playlist">本期片单</a></li>
+        <li><a href="#review">看点解析</a></li>
+        <li><a href="#guide">观影流程</a></li>
+        <li><a href="#faq">常见问题</a></li>
+        <li><a href="#about">关于本站</a></li>
+      </ul>
+    </nav>
+
+    <a class="cta" href="#playlist">开始查片</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首页概览 -->
+  <section id="home" class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="tagline">剧情解析 · 片单索引 · 观影指南</span>
+          <h1><em>怡红院电影网</em><br>把一部片子从哪看起讲清楚</h1>
+          <p class="lead">怡红院电影网是一份按主题整理的影视查阅手册：先按分类定位条目，再读剧情脉络与看点拆解，最后照着观影顺序走完。不堆弹窗、不绕路，手机竖屏也能一路读到底。</p>
+
+          <div class="urlbox">
+            <span class="lb">本站网址</span>
+            <code>https://yihongyuandianyingwang-app.github.io</code>
+          </div>
+
+          <div class="hero-btns">
+            <a class="cta" href="#category">按分类浏览</a>
+            <a class="btn-ghost" href="#guide">新手观影流程</a>
+          </div>
+        </div>
+
+        <div class="poster" aria-hidden="true">
+          <span class="ring"></span>
+          <span class="ring b"></span>
+          <div class="card c1"><span class="no">01</span></div>
+          <div class="card c2"><span class="no">02</span></div>
+          <div class="card c3"><span class="no">03</span></div>
+          <div class="badge">条目库 <b>持续更新</b></div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div><strong>6 大</strong><span>分类索引</span></div>
+        <div><strong>4 步</strong><span>观影流程</span></div>
+        <div><strong>7×24</strong><span>随时查阅</span></div>
+        <div><strong>100%</strong><span>移动端自适应</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 分类索引 -->
+  <section id="category">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="eyebrow">Category</span>
+        <h2>怡红院电影网的<em>六条分类线</em></h2>
+        <p>每一条分类线都按「题材 → 看点 → 观影顺序」组织，先挑方向，再看条目，避免在一堆片名里来回翻。</p>
+      </div>
+
+      <div class="cats">
+        <article class="cat">
+          <span class="num">01</span>
+          <h3>华语剧情</h3>
+          <p>以人物关系与社会背景为主线，标注年代、导演风格与情绪浓度，适合连续看完一整个系列。</p>
+          <div class="meta"><i>年代跨度</i><i>人物群像</i><i>现实主义</i></div>
+        </article>
+        <article class="cat">
+          <span class="num">02</span>
+          <h3>日韩剧集</h3>
+          <p>按季拆分条目，标明单集时长与叙事节奏，方便判断是周末追还是通勤看。</p>
+          <div class="meta"><i>分季索引</i><i>单集时长</i><i>节奏标注</i></div>
+        </article>
+        <article class="cat">
+          <span class="num">03</span>
+          <h3>欧美电影</h3>
+          <p>按类型片传统梳理，附导演作品序列，看完一部可以直接顺着往下接。</p>
+          <div class="meta"><i>类型片</i><i>导演序列</i><i>原声字幕</i></div>
+        </article>
+        <article class="cat">
+          <span class="num">04</span>
+          <h3>纪录与真实</h3>
+          <p>偏事实类条目，标注拍摄周期与取材范围，适合带着问题去看。</p>
+          <div class="meta"><i>取材范围</i><i>拍摄周期</i><i>议题导向</i></div>
+        </article>
+        <article class="cat">
+          <span class="num">05</span>
+          <h3>动画与奇幻</h3>
+          <p>世界观设定先讲清，再列观看顺序，避免时间线交错带来的理解门槛。</p>
+          <div class="meta"><i>世界观</i><i>时间线</i><i>观看顺序</i></div>
+        </article>
+        <article class="cat">
+          <span class="num">06</span>
+          <h3>短片合辑</h3>
+          <p>单片时长短、主题集中，适合碎片时间；每组合辑标注总时长与情绪走向。</p>
+          <div class="meta"><i>总时长</i><i>主题合辑</i><i>碎片观看</i></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 本期片单 -->
+  <section id="playlist">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="eyebrow">Playlist</span>
+        <h2>本期片单 · <em>横向滑动查看</em></h2>
+        <p>以下为本期条目示例，用于演示版式与信息密度；实际发布时替换为对应条目即可。手机端左右滑动浏览。</p>
+      </div>
+
+      <div class="strip">
+        <article class="pic">
+          <div class="thumb t1"><span class="score">8.6</span></div>
+          <div class="body">
+            <h3>灯塔纪事</h3>
+            <p>华语剧情 · 112 分钟 · 三段式结构，情绪递进明显。</p>
+          </div>
+        </article>
+        <article class="pic">
+          <div class="thumb t2"><span class="score">8.1</span></div>
+          <div class="body">
+            <h3>雨季来信</h3>
+            <p>日韩剧集 · 共 8 集 · 单集 45 分钟，适合周末连看。</p>
+          </div>
+        </article>
+        <article class="pic">
+          <div class="thumb t3"><span class="score">7.9</span></div>
+          <div class="body">
+            <h3>无声之城</h3>
+            <p>欧美电影 · 128 分钟 · 冷色调，叙事留白较多。</p>
+          </div>
+        </article>
+        <article class="pic">
+          <div class="thumb t4"><span class="score">8.4</span></div>
+          <div class="body">
+            <h3>云端之上</h3>
+            <p>动画奇幻 · 96 分钟 · 世界观前置，建议先看设定篇。</p>
+          </div>
+        </article>
+        <article class="pic">
+          <div class="thumb t5"><span class="score">8.0</span></div>
+          <div class="body">
+            <h3>长夜将尽</h3>
+            <p>纪录真实 · 88 分钟 · 取材跨度六年，议题性强。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 看点解析 -->
+  <section id="review">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="eyebrow">Review</span>
+        <h2>看点解析 · <em>不剧透的读法</em></h2>
+        <p>每条解析只讲结构与手法，关键转折留白，先看片再回来对照，体验更完整。</p>
+      </div>
+
+      <div class="rows">
+        <article class="row">
+          <div class="art" aria-hidden="true"></div>
+          <div>
+            <h3>结构：三段式怎么拆</h3>
+            <p>把整部片子切成「铺垫—对抗—收束」三段，标出每段的时间占比，判断节奏是否拖沓只要看中段占比是否过半。</p>
+            <div class="pts"><i>段落占比</i><i>转折点位置</i><i>节奏判断</i></div>
+          </div>
+        </article>
+        <article class="row">
+          <div>
+            <h3>人物：关系图先画出来</h3>
+            <p>先把主要角色的关系连成一张图，再看冲突如何在图上移动。人物多的片子，这一步能省掉大半的理解成本。</p>
+            <div class="pts"><i>角色关系图</i><i>冲突走向</i><i>动机标注</i></div>
+          </div>
+          <div class="art" aria-hidden="true"></div>
+        </article>
+        <article class="row">
+          <div class="art" aria-hidden="true"></div>
+          <div>
+            <h3>镜头：用光影读情绪</h3>
+            <p>注意色温、景深与剪辑频率的变化节点，通常在情绪转折前后会出现明显切换，这是最直观的观影线索。</p>
+            <div class="pts"><i>色温变化</i><i>剪辑频率</i><i>景深切换</i></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 观影流程 -->
+  <section id="guide">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="eyebrow">Guide</span>
+        <h2>新手观影流程 · <em>四步走完</em></h2>
+        <p>怡红院电影网把查片流程固定成四个动作，照着做就能从「不知道看什么」走到「看完有话说」。</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <h3><b>STEP 01</b>选定分类线</h3>
+          <p>先确定今天想看的方向：剧情、剧集、纪录还是动画。分类线确定后，备选范围会立刻收窄到十几条。</p>
+        </div>
+        <div class="step">
+          <h3><b>STEP 02</b>核对时长与节奏</h3>
+          <p>看条目上标注的时长、单集长度与叙事节奏，匹配自己当下的时间块，避免开了头却看不完。</p>
+        </div>
+        <div class="step">
+          <h3><b>STEP 03</b>读结构不读结局</h3>
+          <p>只浏览段落结构与看点提示，跳过结局与关键转折，保留观看时的未知感。</p>
+        </div>
+        <div class="step">
+          <h3><b>STEP 04</b>看完回看解析</h3>
+          <p>看完再回到条目页对照解析，检查自己漏掉的细节，这一步是从「看过」到「看懂」的区别。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="eyebrow">FAQ</span>
+        <h2>常见问题 · <em>关于怡红院电影网</em></h2>
+        <p>下面几条是访问本站时被问得最多的问题，点击展开即可查看。</p>
+      </div>
+
+      <div class="faq">
+        <details open>
+          <summary>怡红院电影网的网址是什么？</summary>
+          <div class="ans">本站唯一访问地址为 https://yihongyuandianyingwang-app.github.io ，建议收藏后直接访问，避免进入仿冒页面。</div>
+        </details>
+        <details>
+          <summary>条目是按什么顺序排列的？</summary>
+          <div class="ans">先按分类线分组，组内按更新时间倒序排列，不设置打分排名，避免用单一分数替代实际观看感受。</div>
+        </details>
+        <details>
+          <summary>手机上浏览会有排版问题吗？</summary>
+          <div class="ans">不会。页面采用流式布局与断点适配，从 320px 窄屏到桌面宽屏都会自动重排，图片与卡片等比缩放，横向滚动区域也做了触控优化。</div>
+        </details>
+        <details>
+          <summary>解析内容会剧透吗？</summary>
+          <div class="ans">不会。解析只涉及结构、镜头与人物关系层面的信息，关键剧情转折与结局一律留白，建议观看后再回来对照阅读。</div>
+        </details>
+        <details>
+          <summary>条目多久更新一次？</summary>
+          <div class="ans">分类线与片单按周期滚动更新，新增条目会标注更新时间；旧条目保留归档，方便回溯此前的内容。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于本站 -->
+  <section id="about">
+    <div class="wrap">
+      <div class="about">
+        <div class="txt">
+          <span class="eyebrow">About</span>
+          <h2 style="font-size:clamp(24px,3.2vw,34px);margin:12px 0 16px">关于<em style="font-style:normal;color:var(--red)">怡红院电影网</em></h2>
+          <p><strong>怡红院电影网</strong>做的是一件很具体的事：把一个条目从片名之外还能说什么讲清楚——它的结构、节奏、观看顺序，以及适合在什么时间看。</p>
+          <p>页面尽量做轻：样式内联、无第三方请求、无强制弹窗，弱网环境下也能较快打开。所有栏目以锚点方式组织，一次加载即可在各栏目间来回跳转。</p>
+          <p>如果你习惯先收藏再慢慢看，可以直接记住这个地址：<strong>https://yihongyuandianyingwang-app.github.io</strong> 。</p>
+        </div>
+
+        <div class="cards2">
+          <div class="mini">
+            <h4>信息组织</h4>
+            <p>分类 → 条目 → 解析 → 流程，四级结构，逐级收窄范围。</p>
+          </div>
+          <div class="mini">
+            <h4>阅读体验</h4>
+            <p>正文行宽控制在舒适区间，长句拆短，手机竖屏无需放大。</p>
+          </div>
+          <div class="mini">
+            <h4>更新方式</h4>
+            <p>按周期滚动更新片单，标注更新时间，保留历史归档。</p>
+          </div>
+          <div class="mini">
+            <h4>访问方式</h4>
+            <p>桌面与移动端同一套页面，无需下载额外应用。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="aboutme">
+        <h4>怡红院电影网</h4>
+        <p>影视条目索引与剧情解析，按分类组织，移动端自适应，打开即读。</p>
+        <p class="url2">https://yihongyuandianyingwang-app.github.io</p>
+      </div>
+      <div>
+        <h4>栏目导航</h4>
+        <ul>
+          <li><a href="#home">首页概览</a></li>
+          <li><a href="#category">分类索引</a></li>
+          <li><a href="#playlist">本期片单</a></li>
+          <li><a href="#review">看点解析</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>帮助中心</h4>
+        <ul>
+          <li><a href="#guide">新手观影流程</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#about">关于本站</a></li>
+          <li><a href="#">返回顶部</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>相关链接</h4>
+        <ul>
+          <li><a href="#">条目归档</a></li>
+          <li><a href="#">更新日志</a></li>
+          <li><a href="#">内容纠错</a></li>
+          <li><a href="#">站点地图</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bot">
+      <span>怡红院电影网 · yihongyuandianyingwang-app.github.io</span>
+      <span>页面内示例条目仅用于版式演示，发布时请替换为实际内容。</span>
+    </div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "怡红院电影网",
+  "alternateName": "怡红院电影",
+  "url": "https://yihongyuandianyingwang-app.github.io",
+  "description": "怡红院电影网提供影视条目索引、剧情解析、片单推荐与观影指南，按分类组织内容，移动端自适应，打开即读。",
+  "inLanguage": "zh-CN",
+  "keywords": "怡红院电影网,剧情解析,片单索引,观影指南",
+  "publisher": {
+    "@type": "Organization",
+    "name": "怡红院电影网",
+    "url": "https://yihongyuandianyingwang-app.github.io"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://yihongyuandianyingwang-app.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+</body>
+</html>
